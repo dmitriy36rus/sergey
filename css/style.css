@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;  
+}
+*,*::before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+/*Конец обнуляющего стиля*/
+
+/* Подключение шрифтов*/
+@font-face {
+  font-family: "halvar";
+  src: url("../fonts/halvarbreit/HalvarBreit-Bd.woff2") format("woff2"),
+  url("../fonts/halvarbreit/HalvarBreit-Bd.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+  @font-face {
+  font-family: "halvar";
+  src: url("../fonts/halvarbreit/HalvarBreit-Bd.woff2") format("woff2"),
+  url("../fonts/halvarbreit/HalvarBreit-Bd.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  }
+
+  @font-face {
+    font-family: "noto sans bold";
+    src: url("../fonts/noto_sans/NotoSans-Bold.woff2") format("woff2"),
+    url("../fonts/noto_sans/NotoSans-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    }
+
+
+/*
+div{
+border-width:1px;
+border-color: white;
+border-style:solid;
+}
+*/
+
+
+div{
+  position: absolute;
+}
+
+body{background-color:#000000;
+  width: 1280px;
+  height: 12418px;}
+.line_start{
+  margin-left: 10px;
+  margin-top: 998px;
+}
+.klubok{
+  color: #ffffff;
+  font-family: "halvar", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.logo{
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.klubok_start{
+  margin-left: 339px;
+  margin-top: 141px;
+}
+.text1_object{
+  font-family: "noto sans bold";
+  font-size: 120px;
+  color:#fcfcfc;
+  text-align: center;
+}
+.text1{
+  margin-left: 170px;
+  margin-top: 204px;
+  width: 940px;
+  height: 400px;
+}
+.text2_object{
+  font-family: "noto sans bold";
+  font-size: 38px;
+  color:#ffffff;
+  text-align: left;  
+}
+.text2{
+  margin-left: 490px;
+  margin-top: 822px;
+  width: 680px;
+  height: 152px;
+  }
+.text3_object{
+  font-family: "noto sans bold";
+  font-size: 38px;
+  color:#ffffff;
+  text-align: left;  
+}
+.text3{
+  margin-left: 170px;
+  margin-top: 1205px;
+  width: 666px;
+  height: 114px;
+}
+.text4_object{
+  font-family: "noto sans bold";
+  font-size: 70px;
+  color:#ffffff;
+  text-align: left;  
+}
+.text4{
+  margin-left: 50px;
+  margin-top: 1935px;
+  width: 869px;
+  height: 462px;
+}
+.text5_object{
+  font-family: "noto sans bold";
+  font-size: 80px;
+  color:#fcfcfc;
+  text-align: left;  
+}
+.text5{
+  margin-left: 50px;
+  margin-top: 3832px;
+  width: 890px;
+  height: 532px;
+}
